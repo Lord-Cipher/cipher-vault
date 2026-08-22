@@ -30,6 +30,8 @@ print(Fernet.generate_key().decode())
 
 The bot performs a scheduled sync every 30 minutes and exposes owner-only **Vault Management**, **Force Sync to Vault**, and **Vault History** controls in Telegram.
 
+For VPS, Render, Docker, or other hosts that do not use a platform secret manager, copy `cipher_vault.json.example` from the bot-hosting repository to `cipher_vault.json` beside `bot.py`, fill in the values, and restrict the file to the service account (`chmod 600 cipher_vault.json`). The bot also accepts `CIPHER_VAULT_CONFIG=/path/to/cipher_vault.json`. Environment variables override file values, so the same code works with Railway variables, a VPS file, a Render secret, or a Docker secret.
+
 ## Recovery
 
 To materialize the newest verified snapshot onto a new Railway or VPS instance, copy `materialize.py` to the new platform directory, install `cryptography`, set `CIPHER_VAULT_TOKEN` and `CIPHER_VAULT_KEY`, and run:
