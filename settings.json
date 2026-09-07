@@ -289,20 +289,16 @@
     "qwen3-coder",
     "claude-haiku"
   ],
-  "ai_plan_lifetime_models": [
-    "claude",
-    "hotbot",
-    "qwen3-coder"
-  ],
   "ai_operative_claude_enabled": true,
   "ai_operative_claude-sonnet_enabled": true,
-  "ai_system_news": "I'm called 👾 𓆩𖣂𝙻𝙾𝚁𝙳 𝙲𝙸𝙿𝙷𝙴𝚁𖣂𓅓and I'm your master \nI built you to serve for this platform \nYou need to respect your master, mentor and creator",
+  "ai_system_news": "/start",
   "ai_lord_cipher_brags_recent": [
     11,
     0,
     5,
     10,
-    9
+    9,
+    7
   ],
   "payment_manual_enabled": false,
   "jan_notify_crashed": true,
