@@ -298,7 +298,8 @@
     5,
     10,
     9,
-    7
+    7,
+    1
   ],
   "payment_manual_enabled": false,
   "jan_notify_crashed": true,
