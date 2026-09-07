@@ -28,6 +28,31 @@
       "ai_models": [
         "claude-haiku"
       ]
+    },
+    "7164313769": {
+      "_id": 7164313769,
+      "name": "𝐑𝐗",
+      "username": "RIFATBOSS_1",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-09-07T09:09:10.175395+00:00",
+      "last_seen": "2026-09-07T09:09:41.593054+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-09-07T09:09:16.559277+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "bot_slots_bonus": 0,
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 10
+      }
     }
   },
   "bots": {
@@ -505,6 +530,12 @@
       "uid": 8065173971,
       "action": "sandbox_mode_toggle",
       "detail": "enabled=False"
+    },
+    {
+      "ts": "2026-09-07T09:09:16.775340+00:00",
+      "uid": 7164313769,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
     }
   ],
   "scheduled_broadcasts": [],
@@ -521,6 +552,14 @@
     }
   ],
   "notifications": [
+    {
+      "id": "bd78ebdc",
+      "ts": "2026-09-07T09:09:10.253598+00:00",
+      "type": "SYSTEM",
+      "msg": "New user registered: 𝐑𝐗 (UID: 7164313769)",
+      "uid": "7164313769",
+      "read": false
+    },
     {
       "id": "1098ea80",
       "ts": "2026-09-07T02:22:00.121311+00:00",
