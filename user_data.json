@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2027-09-07T02:22:00.120149+00:00",
       "joined": "2026-09-07T02:10:22.851763+00:00",
-      "last_seen": "2026-09-07T16:23:07.212635+00:00",
+      "last_seen": "2026-09-07T16:28:19.405300+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,11 +22,11 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 1,
-        "logins": 179
+        "logins": 209
       },
       "last_expiry_warn": -1,
       "ai_models": [
-        "claude-haiku"
+        "claude-sonnet"
       ]
     },
     "7164313769": {
@@ -536,6 +536,24 @@
       "uid": 7164313769,
       "action": "captcha_pass",
       "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-09-07T16:27:00.138507+00:00",
+      "uid": 8065173971,
+      "action": "update_ai_system_news",
+      "detail": "/start"
+    },
+    {
+      "ts": "2026-09-07T16:27:54.352962+00:00",
+      "uid": 8065173971,
+      "action": "ai_pool_lifetime",
+      "detail": "hotbot,qwen3-coder"
+    },
+    {
+      "ts": "2026-09-07T16:27:56.940527+00:00",
+      "uid": 8065173971,
+      "action": "ai_pool_reset_lifetime",
+      "detail": "defaults"
     }
   ],
   "scheduled_broadcasts": [],
