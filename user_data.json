@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2027-09-07T02:22:00.120149+00:00",
       "joined": "2026-09-07T02:10:22.851763+00:00",
-      "last_seen": "2026-09-07T16:52:51.823445+00:00",
+      "last_seen": "2026-09-07T16:53:48.178639+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 224
+        "logins": 226
       },
       "last_expiry_warn": -1,
       "ai_models": [
@@ -83,7 +83,7 @@
         }
       ],
       "env": {},
-      "status": "running",
+      "status": "stopped",
       "cron": {},
       "security_scan": {
         "verdict": "SUSPICIOUS",
@@ -96,8 +96,9 @@
       "admin_trusted": true,
       "trusted_execution": true,
       "last_started": "2026-09-07T02:12:24.515082+00:00",
-      "last_error": "",
-      "last_exit_code": null
+      "last_error": "   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.2/48.2 kB 14.3 MB/s eta 0:00:00\nInstalling collected packages: urllib3, typing-extensions, soupsieve, pyotp, pyjwt, pycparser, pyasn1, protobuf, msgpack, idna, hyperframe, hpack, h11, google-crc32c, charset_normalizer, certifi, requests, pyasn1-modules, proto-plus, opentelemetry-api, httpcore, h2, grpcio, googleapis-common-protos, google-resumable-media, cffi, beautifulsoup4, anyio, httpx, grpcio-status, cryptography, cachecontrol, google-auth, google-api-core, google-cloud-core, google-cloud-storage, google-cloud-firestore, firebase-admin\nSuccessfully installed anyio-4.15.1 beautifulsoup4-4.15.0 cachecontrol-0.14.4 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.1 cryptography-50.0.1 firebase-admin-7.5.0 google-api-core-2.36.0 google-auth-2.57.1 google-cloud-core-2.7.0 google-cloud-firestore-2.30.0 google-cloud-storage-3.13.1 google-crc32c-1.8.0 google-resumable-media-2.10.2 googleapis-common-protos-1.75.3 grpcio-1.83.1 grpcio-status-1.83.1 h11-0.16.0 h2-4.4.1 hpack-4.2.0 httpcore-1.0.9 httpx-0.28.1 hyperframe-6.1.0 idna-3.19 msgpack-1.2.2 opentelemetry-api-1.44.0 proto-plus-1.28.4 protobuf-7.36.1 pyasn1-0.6.4 pyasn1-modules-0.4.2 pycparser-3.0 pyjwt-2.13.0 pyotp-2.10.0 requests-2.34.2 soupsieve-2.9.2 typing-extensions-4.16.0 urllib3-2.7.0\n[✓] requirements.txt done (rc=0)\n✅ Firebase Auto-Connected on Startup!\n✅ Settings synced from Firebase!\n✅ Auto-Synced 1 users on Startup!\nBot @ciphetotp_bot is running with Voltx, DXA Cont",
+      "last_exit_code": -15,
+      "last_exit_at": "2026-09-07T16:53:48.238285+00:00"
     },
     "d778976236e22ece": {
       "_id": "d778976236e22ece",
@@ -120,11 +121,20 @@
         }
       ],
       "env": {},
-      "status": "stopped",
+      "status": "running",
       "cron": {},
       "gh_synced_at": 0,
       "approval_status": "approved",
-      "trusted_execution": true
+      "trusted_execution": true,
+      "security_scan": {
+        "verdict": "SAFE",
+        "risk_score": 0,
+        "summary": "No high-confidence dangerous behavior found.",
+        "checked": "2026-09-07T16:53:38.366586+00:00"
+      },
+      "last_started": "2026-09-07T16:53:39.729715+00:00",
+      "last_error": "",
+      "last_exit_code": null
     }
   },
   "payments": [],
@@ -603,6 +613,14 @@
     },
     {
       "ts": "2026-09-07T16:53:11.997772+00:00",
+      "uid": "8065173971",
+      "filename": "main.py",
+      "verdict": "SAFE",
+      "risk_score": 0,
+      "summary": "No high-confidence dangerous behavior found."
+    },
+    {
+      "ts": "2026-09-07T16:53:38.365467+00:00",
       "uid": "8065173971",
       "filename": "main.py",
       "verdict": "SAFE",
