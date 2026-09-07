@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "pending_uploads": {}
+  },
+  "metrics_total": {
+    "messages_received": 0,
+    "callbacks_received": 0,
+    "bot_starts": 0,
+    "bot_stops": 0,
+    "bot_crashes": 0,
+    "uploads": 0,
+    "errors": 0,
+    "commands": 0,
+    "plan_upgrades": 0,
+    "payments_received": 0
+  },
+  "vault_history": [
+    {
+      "snapshotId": "20260907T004835Z-ff21ba12feb7",
+      "commit": "b60a9f9abcb51357dd6cb82f78682c200f0576ed",
+      "createdAt": "2026-09-07T00:48:35.349187+00:00",
+      "fileCount": 53,
+      "sizeBytes": 547145,
+      "ok": true
+    },
+    {
+      "snapshotId": "20260907T011839Z-74a64855c30c",
+      "commit": "9bb9f8e9549bff6418534bcf3d60e8703421e740",
+      "createdAt": "2026-09-07T01:18:39.227368+00:00",
+      "fileCount": 53,
+      "sizeBytes": 547329,
+      "ok": true
+    },
+    {
+      "snapshotId": "20260907T014842Z-3223f523bbd7",
+      "commit": "3f62388d86c819394012c13c5450df74eb8179e2",
+      "createdAt": "2026-09-07T01:48:42.822077+00:00",
+      "fileCount": 53,
+      "sizeBytes": 547428,
+      "ok": true
+    },
+    {
+      "snapshotId": "20260907T021846Z-12f1d0be6494",
+      "commit": "4748ccdedd888c2832a80b1070bbd3200728fe47",
+      "createdAt": "2026-09-07T02:18:46.212823+00:00",
+      "fileCount": 66,
+      "sizeBytes": 690519,
+      "ok": true
+    }
+  ],
+  "ai_plan_free_models": [
+    "deepseek-v3",
+    "gpt-4o-mini",
+    "mistral"
+  ],
+  "ai_plan_starter_models": [
+    "deepseek-v32",
+    "qwen-80b",
+    "gpt-4o-mini"
+  ],
+  "ai_plan_basic_models": [
+    "deepseek-cli",
+    "gemini",
+    "code-assistant"
+  ],
+  "ai_plan_pro_models": [
+    "claude-sonnet",
+    "qwen3-coder",
+    "gemini"
+  ],
+  "ai_plan_enterprise_models": [
+    "claude-sonnet",
+    "qwen3-coder",
+    "claude-haiku"
+  ],
+  "ai_plan_lifetime_models": [
+    "claude",
+    "hotbot",
+    "qwen3-coder"
+  ],
+  "ai_operative_claude_enabled": true,
+  "ai_operative_claude-sonnet_enabled": true,
+  "ai_system_news": "I'm called 👾 𓆩𖣂𝙻𝙾𝚁𝙳 𝙲𝙸𝙿𝙷𝙴𝚁𖣂𓅓and I'm your master \nI built you to serve for this platform \nYou need to respect your master, mentor and creator",
+  "ai_lord_cipher_brags_recent": [
+    11,
+    0,
+    5,
+    10,
+    9
+  ],
+  "payment_manual_enabled": false,
+  "jan_notify_crashed": true,
+  "jan_clean_old_audit": true,
+  "jan_auto_ban_rate_abuse": true,
+  "jan_clean_expired_coupons": true,
+  "jan_clean_old_logs": true,
+  "jan_clean_orphan_dirs": true,
+  "github_repo": "LORD-CIPHER/cipher-vault",
+  "github_token": "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",
+  "sandbox_mode": false
+}
