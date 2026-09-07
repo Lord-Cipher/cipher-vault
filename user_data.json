@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2027-09-07T02:22:00.120149+00:00",
       "joined": "2026-09-07T02:10:22.851763+00:00",
-      "last_seen": "2026-09-07T16:36:07.473717+00:00",
+      "last_seen": "2026-09-07T16:52:51.823445+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,8 +21,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 1,
-        "logins": 223
+        "bots_uploaded": 2,
+        "logins": 224
       },
       "last_expiry_warn": -1,
       "ai_models": [
@@ -98,6 +98,33 @@
       "last_started": "2026-09-07T02:12:24.515082+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "d778976236e22ece": {
+      "_id": "d778976236e22ece",
+      "owner": 8065173971,
+      "name": "5_6122647155153837266",
+      "dir": "/app/sandbox/8065173971_d778976236e22ece",
+      "created": "2026-09-07T16:52:52.136713+00:00",
+      "enc_files": [
+        {
+          "key_id": "bz5tkPjvB-Z_qVHXDwb_bA",
+          "enc_path": "/app/storage/encfiles/8065173971/1788799992_main_py.enc",
+          "filename": "main.py",
+          "rel_path": "main.py"
+        },
+        {
+          "key_id": "LCmaqJazUC9yPNuILJfntA",
+          "enc_path": "/app/storage/encfiles/8065173971/1788799993_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "requirements.txt"
+        }
+      ],
+      "env": {},
+      "status": "stopped",
+      "cron": {},
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "trusted_execution": true
     }
   },
   "payments": [],
@@ -573,9 +600,25 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 31,
       "summary": "🔍 File is suspicious. 🤖 AI (DANGEROUS 87/100): This bot forwards users' one-time passwords and includes hardcoded payment/API secrets, so it can steal login codes and expose sensitive credentials."
+    },
+    {
+      "ts": "2026-09-07T16:53:11.997772+00:00",
+      "uid": "8065173971",
+      "filename": "main.py",
+      "verdict": "SAFE",
+      "risk_score": 0,
+      "summary": "No high-confidence dangerous behavior found."
     }
   ],
   "notifications": [
+    {
+      "id": "177eae63",
+      "ts": "2026-09-07T16:53:14.367434+00:00",
+      "type": "SYSTEM",
+      "msg": "New bot uploaded: 5_6122647155153837266 by UID 8065173971",
+      "uid": "8065173971",
+      "read": false
+    },
     {
       "id": "bd78ebdc",
       "ts": "2026-09-07T09:09:10.253598+00:00",
