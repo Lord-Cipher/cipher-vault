@@ -310,5 +310,12 @@
   "jan_clean_orphan_dirs": true,
   "github_repo": "LORD-CIPHER/cipher-vault",
   "github_token": "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",
-  "sandbox_mode": false
+  "sandbox_mode": false,
+  "ai_plan_lifetime_models": [
+    "claude",
+    "hotbot",
+    "deepseek-r1",
+    "code-assistant",
+    "deepseek-cli"
+  ]
 }
