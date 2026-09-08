@@ -16,14 +16,6 @@
   },
   "vault_history": [
     {
-      "snapshotId": "20260907T145025Z-c6908066e20f",
-      "commit": "3cc4e1a0a500fe123fa3bb6a291059e8ecd6934b",
-      "createdAt": "2026-09-07T14:50:25.636994+00:00",
-      "fileCount": 66,
-      "sizeBytes": 700563,
-      "ok": true
-    },
-    {
       "snapshotId": "20260907T152030Z-50e7635dceff",
       "commit": "3eabcbce13e08c313e5acbae826960224e11c7fc",
       "createdAt": "2026-09-07T15:20:30.115934+00:00",
@@ -413,6 +405,14 @@
       "createdAt": "2026-09-08T16:23:52.524670+00:00",
       "fileCount": 68,
       "sizeBytes": 974971,
+      "ok": true
+    },
+    {
+      "snapshotId": "20260908T165356Z-ddc6e2d71768",
+      "commit": "abff98778c0d6f6ed7d390f183dd826513aeb777",
+      "createdAt": "2026-09-08T16:53:56.507002+00:00",
+      "fileCount": 68,
+      "sizeBytes": 974974,
       "ok": true
     }
   ],
