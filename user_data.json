@@ -1,13 +1,13 @@
 {
   "users": {
-    "8065173971": {
-      "_id": 8065173971,
-      "name": "𝐕𝖆𝖓𝖙𝖍𝖊𝖝",
-      "username": "vanthex_ciph3r",
+    "8807349131": {
+      "_id": 8807349131,
+      "name": "LORD CIPHER",
+      "username": "lord_ciph3r",
       "plan": "lifetime",
-      "plan_expires": "2027-09-07T02:22:00.120149+00:00",
-      "joined": "2026-09-07T02:10:22.851763+00:00",
-      "last_seen": "2026-09-07T16:53:48.178639+00:00",
+      "plan_expires": "2126-09-01T12:19:25.322286+00:00",
+      "joined": "2026-09-25T12:16:29.214095+00:00",
+      "last_seen": "2026-09-25T12:21:26.056094+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -18,656 +18,81 @@
       "ref_count": 0,
       "ref_credit": 0,
       "trial_used": false,
+      "file_coins": 0,
       "bot_slots_bonus": 0,
-      "stats": {
-        "commands": 0,
-        "bots_uploaded": 2,
-        "logins": 226
-      },
-      "last_expiry_warn": -1,
-      "ai_models": [
-        "claude-sonnet"
-      ]
-    },
-    "7164313769": {
-      "_id": 7164313769,
-      "name": "𝐑𝐗",
-      "username": "RIFATBOSS_1",
-      "plan": "free",
-      "plan_expires": null,
-      "joined": "2026-09-07T09:09:10.175395+00:00",
-      "last_seen": "2026-09-07T09:09:59.515805+00:00",
-      "banned": false,
-      "ban_reason": "",
-      "wallet": 0,
-      "kyc": false,
-      "verified": true,
-      "verified_at": "2026-09-07T09:09:16.559277+00:00",
-      "ref_by": null,
-      "ref_count": 0,
-      "ref_credit": 0,
-      "trial_used": false,
-      "bot_slots_bonus": 0,
+      "xp": 0,
+      "achievements": [],
+      "product_access": {},
+      "bot_slot_grants": [],
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 13
-      }
+        "logins": 26
+      },
+      "coupons_used": [
+        "TEST"
+      ],
+      "last_expiry_warn": -1
     }
   },
-  "bots": {
-    "153572433a3b7c9a": {
-      "_id": "153572433a3b7c9a",
-      "owner": 8065173971,
-      "name": "CIPHER_TECH_OTP_1",
-      "dir": "/app/sandbox/8065173971_153572433a3b7c9a",
-      "created": "2026-09-07T02:12:09.228073+00:00",
-      "enc_files": [
-        {
-          "key_id": "N3upTYiYBFGr-G2oM4Zqzg",
-          "enc_path": "/app/storage/encfiles/8065173971/1788747136_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        },
-        {
-          "key_id": "OpvK5y-j23TheH_UDT2Vpw",
-          "enc_path": "/app/storage/encfiles/8065173971/1788747136_temp_firebase_json.enc",
-          "filename": "temp_firebase.json",
-          "rel_path": "temp_firebase.json"
-        },
-        {
-          "key_id": "mrEew09K7izei5mix4gFEg",
-          "enc_path": "/app/storage/encfiles/8065173971/1788747136_updated_user_bot_2_py.enc",
-          "filename": "updated_user_bot (2).py",
-          "rel_path": "updated_user_bot (2).py"
-        }
-      ],
-      "env": {},
-      "status": "stopped",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 31,
-        "summary": "🔍 File is suspicious. 🤖 AI (DANGEROUS 87/100): This bot forwards users' one-time passwords and includes hardcoded payment/API secrets, so it can steal login codes and expose sensitive credentials.",
-        "recommendation": "MANUAL_REVIEW"
-      },
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "admin_trusted": true,
-      "trusted_execution": true,
-      "last_started": "2026-09-07T02:12:24.515082+00:00",
-      "last_error": "   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.2/48.2 kB 14.3 MB/s eta 0:00:00\nInstalling collected packages: urllib3, typing-extensions, soupsieve, pyotp, pyjwt, pycparser, pyasn1, protobuf, msgpack, idna, hyperframe, hpack, h11, google-crc32c, charset_normalizer, certifi, requests, pyasn1-modules, proto-plus, opentelemetry-api, httpcore, h2, grpcio, googleapis-common-protos, google-resumable-media, cffi, beautifulsoup4, anyio, httpx, grpcio-status, cryptography, cachecontrol, google-auth, google-api-core, google-cloud-core, google-cloud-storage, google-cloud-firestore, firebase-admin\nSuccessfully installed anyio-4.15.1 beautifulsoup4-4.15.0 cachecontrol-0.14.4 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.1 cryptography-50.0.1 firebase-admin-7.5.0 google-api-core-2.36.0 google-auth-2.57.1 google-cloud-core-2.7.0 google-cloud-firestore-2.30.0 google-cloud-storage-3.13.1 google-crc32c-1.8.0 google-resumable-media-2.10.2 googleapis-common-protos-1.75.3 grpcio-1.83.1 grpcio-status-1.83.1 h11-0.16.0 h2-4.4.1 hpack-4.2.0 httpcore-1.0.9 httpx-0.28.1 hyperframe-6.1.0 idna-3.19 msgpack-1.2.2 opentelemetry-api-1.44.0 proto-plus-1.28.4 protobuf-7.36.1 pyasn1-0.6.4 pyasn1-modules-0.4.2 pycparser-3.0 pyjwt-2.13.0 pyotp-2.10.0 requests-2.34.2 soupsieve-2.9.2 typing-extensions-4.16.0 urllib3-2.7.0\n[✓] requirements.txt done (rc=0)\n✅ Firebase Auto-Connected on Startup!\n✅ Settings synced from Firebase!\n✅ Auto-Synced 1 users on Startup!\nBot @ciphetotp_bot is running with Voltx, DXA Cont",
-      "last_exit_code": -15,
-      "last_exit_at": "2026-09-07T16:53:48.238285+00:00"
-    },
-    "d778976236e22ece": {
-      "_id": "d778976236e22ece",
-      "owner": 8065173971,
-      "name": "5_6122647155153837266",
-      "dir": "/app/sandbox/8065173971_d778976236e22ece",
-      "created": "2026-09-07T16:52:52.136713+00:00",
-      "enc_files": [
-        {
-          "key_id": "bz5tkPjvB-Z_qVHXDwb_bA",
-          "enc_path": "/app/storage/encfiles/8065173971/1788799992_main_py.enc",
-          "filename": "main.py",
-          "rel_path": "main.py"
-        },
-        {
-          "key_id": "LCmaqJazUC9yPNuILJfntA",
-          "enc_path": "/app/storage/encfiles/8065173971/1788799993_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "gh_synced_at": 0,
-      "approval_status": "approved",
-      "trusted_execution": true,
-      "security_scan": {
-        "verdict": "SAFE",
-        "risk_score": 0,
-        "summary": "No high-confidence dangerous behavior found.",
-        "checked": "2026-09-07T16:53:38.366586+00:00"
-      },
-      "last_started": "2026-09-07T16:53:39.729715+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    }
-  },
+  "bots": {},
   "payments": [],
   "tickets": {},
-  "coupons": {},
+  "coupons": {
+    "TEST": {
+      "percent": 1,
+      "discount_pct": 1,
+      "pct": 1,
+      "discount": 1,
+      "plan": "pro",
+      "uses_left": 0,
+      "max_uses": 1,
+      "expiry": "2026-09-26T12:18:45.507884+00:00",
+      "created": "2026-09-25T12:18:45.507900+00:00",
+      "created_by": 8807349131,
+      "used_by": [
+        8807349131
+      ]
+    }
+  },
   "admins": {},
   "audit": [
     {
-      "ts": "2026-09-07T02:13:54.189324+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_free",
-      "detail": "deepseek-v3,gpt-4o-mini,mistral,chatbot"
-    },
-    {
-      "ts": "2026-09-07T02:13:55.516020+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_free",
-      "detail": "deepseek-v3,gpt-4o-mini,mistral"
-    },
-    {
-      "ts": "2026-09-07T02:14:09.720728+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v3,chatgpt,mistral"
-    },
-    {
-      "ts": "2026-09-07T02:14:10.909952+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v3,mistral"
-    },
-    {
-      "ts": "2026-09-07T02:14:12.131974+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v3"
-    },
-    {
-      "ts": "2026-09-07T02:14:44.026219+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v3,deepseek-v32"
-    },
-    {
-      "ts": "2026-09-07T02:14:49.091124+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v32"
-    },
-    {
-      "ts": "2026-09-07T02:15:01.655983+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v32,qwen-80b"
-    },
-    {
-      "ts": "2026-09-07T02:15:11.141774+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_starter",
-      "detail": "deepseek-v32,qwen-80b,gpt-4o-mini"
-    },
-    {
-      "ts": "2026-09-07T02:15:29.034500+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,chatgpt,gpt-4o-mini"
-    },
-    {
-      "ts": "2026-09-07T02:15:30.156769+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,gpt-4o-mini"
-    },
-    {
-      "ts": "2026-09-07T02:15:35.283380+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:16:01.492751+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,gemini"
-    },
-    {
-      "ts": "2026-09-07T02:16:05.051908+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,gemini,qwen"
-    },
-    {
-      "ts": "2026-09-07T02:16:17.551468+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,gemini"
-    },
-    {
-      "ts": "2026-09-07T02:16:27.473995+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_basic",
-      "detail": "deepseek-cli,gemini,code-assistant"
-    },
-    {
-      "ts": "2026-09-07T02:16:48.793791+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "hotbot,deepseek-cli,chatgpt,code-assistant"
-    },
-    {
-      "ts": "2026-09-07T02:16:49.806022+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "deepseek-cli,chatgpt,code-assistant"
-    },
-    {
-      "ts": "2026-09-07T02:16:50.229357+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "deepseek-cli,code-assistant"
-    },
-    {
-      "ts": "2026-09-07T02:16:51.387098+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "code-assistant"
-    },
-    {
-      "ts": "2026-09-07T02:16:55.776636+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "code-assistant,claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:16:57.267046+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:11.773966+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "claude-sonnet,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T02:17:29.234228+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_pro",
-      "detail": "claude-sonnet,qwen3-coder,gemini"
-    },
-    {
-      "ts": "2026-09-07T02:17:39.622013+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "claude-sonnet,hotbot,deepseek-r1,code-assistant,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:17:40.045509+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "hotbot,deepseek-r1,code-assistant,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:17:40.715595+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,code-assistant,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:17:41.309083+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,code-assistant,deepseek-cli,claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:42.655730+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,code-assistant,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:17:45.368189+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,code-assistant,deepseek-cli,claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:49.367670+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,deepseek-cli,claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:49.573283+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "deepseek-r1,claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:52.206815+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "claude-sonnet"
-    },
-    {
-      "ts": "2026-09-07T02:17:57.725345+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "claude-sonnet,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T02:18:00.798705+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_enterprise",
-      "detail": "claude-sonnet,qwen3-coder,claude-haiku"
-    },
-    {
-      "ts": "2026-09-07T02:18:22.587634+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,claude-sonnet,hotbot,deepseek-r1,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:18:24.204632+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,claude-sonnet,deepseek-r1,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:18:24.860822+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,deepseek-r1,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:18:35.106859+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "deepseek-r1,deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:18:35.114118+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "deepseek-cli"
-    },
-    {
-      "ts": "2026-09-07T02:18:55.184231+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "deepseek-cli,claude"
-    },
-    {
-      "ts": "2026-09-07T02:18:57.254059+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude"
-    },
-    {
-      "ts": "2026-09-07T02:19:00.496172+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot"
-    },
-    {
-      "ts": "2026-09-07T02:19:08.473636+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot"
-    },
-    {
-      "ts": "2026-09-07T02:19:20.542832+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T02:19:28.484016+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot,qwen3-coder,deepseek-r1"
-    },
-    {
-      "ts": "2026-09-07T02:19:47.644458+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot,qwen3-coder,deepseek-r1,claude-cli"
-    },
-    {
-      "ts": "2026-09-07T02:20:00.197045+00:00",
-      "uid": 8065173971,
-      "action": "ai_toggle_claude",
-      "detail": "now=off"
-    },
-    {
-      "ts": "2026-09-07T02:20:01.626086+00:00",
-      "uid": 8065173971,
-      "action": "ai_toggle_claude",
-      "detail": "now=on"
-    },
-    {
-      "ts": "2026-09-07T02:20:03.734021+00:00",
-      "uid": 8065173971,
-      "action": "ai_toggle_claude-sonnet",
-      "detail": "now=off"
-    },
-    {
-      "ts": "2026-09-07T02:20:04.973637+00:00",
-      "uid": 8065173971,
-      "action": "ai_toggle_claude-sonnet",
-      "detail": "now=on"
-    },
-    {
-      "ts": "2026-09-07T02:20:13.134217+00:00",
-      "uid": 8065173971,
-      "action": "update_ai_system_news",
-      "detail": "/start"
-    },
-    {
-      "ts": "2026-09-07T02:22:00.183995+00:00",
-      "uid": 8065173971,
-      "action": "give_plan",
-      "detail": "uid=8065173971 plan=lifetime days=365"
-    },
-    {
-      "ts": "2026-09-07T02:22:37.992991+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot,qwen3-coder,deepseek-r1"
-    },
-    {
-      "ts": "2026-09-07T02:22:42.714751+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,chatbot,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T02:22:47.257572+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T02:25:42.623844+00:00",
-      "uid": 8065173971,
-      "action": "update_ai_system_news",
-      "detail": "I'm called 👾 𓆩𖣂𝙻𝙾𝚁𝙳 𝙲𝙸𝙿𝙷𝙴𝚁𖣂𓅓and I'm your master \nI"
-    },
-    {
-      "ts": "2026-09-07T02:28:14.634326+00:00",
-      "uid": 8065173971,
-      "action": "manual_pay_toggle",
-      "detail": "now=False"
-    },
-    {
-      "ts": "2026-09-07T02:28:29.954818+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_notify_crashed",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:28:30.506298+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_old_audit",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:28:40.862895+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_auto_ban_rate_abuse",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:28:40.867959+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_expired_coupons",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:28:50.873369+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_auto_ban_rate_abuse",
-      "detail": "now=False"
-    },
-    {
-      "ts": "2026-09-07T02:29:00.888389+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_old_logs",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:29:00.891690+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_orphan_dirs",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:29:10.892678+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_orphan_dirs",
-      "detail": "now=False"
-    },
-    {
-      "ts": "2026-09-07T02:29:10.897715+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_auto_ban_rate_abuse",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:29:25.675152+00:00",
-      "uid": 8065173971,
-      "action": "jan_toggle_clean_orphan_dirs",
-      "detail": "now=True"
-    },
-    {
-      "ts": "2026-09-07T02:29:26.958010+00:00",
-      "uid": 8065173971,
-      "action": "janitor_run_now",
-      "detail": "tasks=3"
-    },
-    {
-      "ts": "2026-09-07T02:31:29.918357+00:00",
-      "uid": 8065173971,
-      "action": "sandbox_mode_toggle",
-      "detail": "enabled=True"
-    },
-    {
-      "ts": "2026-09-07T02:31:30.904472+00:00",
-      "uid": 8065173971,
-      "action": "sandbox_mode_toggle",
-      "detail": "enabled=False"
-    },
-    {
-      "ts": "2026-09-07T09:09:16.775340+00:00",
-      "uid": 7164313769,
-      "action": "captcha_pass",
-      "detail": "verified after 0 try(s)"
-    },
-    {
-      "ts": "2026-09-07T16:27:00.138507+00:00",
-      "uid": 8065173971,
-      "action": "update_ai_system_news",
-      "detail": "/start"
-    },
-    {
-      "ts": "2026-09-07T16:27:54.352962+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "hotbot,qwen3-coder"
-    },
-    {
-      "ts": "2026-09-07T16:27:56.940527+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_reset_lifetime",
-      "detail": "defaults"
-    },
-    {
-      "ts": "2026-09-07T16:35:52.619913+00:00",
-      "uid": 8065173971,
-      "action": "ai_pool_lifetime",
-      "detail": "claude,hotbot,deepseek-r1,code-assistant,deepseek-cli"
+      "ts": "2026-09-25T12:18:45.508430+00:00",
+      "uid": 8807349131,
+      "action": "coupon_add",
+      "detail": "code=TEST"
+    },
+    {
+      "ts": "2026-09-25T12:19:18.884450+00:00",
+      "uid": 8807349131,
+      "action": "promo_redeem",
+      "detail": "code=TEST plan=pro"
     }
   ],
   "scheduled_broadcasts": [],
   "notes": {},
   "rate_violations": {},
-  "scan_log": [
-    {
-      "ts": "2026-09-07T02:12:16.850547+00:00",
-      "uid": "8065173971",
-      "filename": "updated_user_bot (2).py",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 31,
-      "summary": "🔍 File is suspicious. 🤖 AI (DANGEROUS 87/100): This bot forwards users' one-time passwords and includes hardcoded payment/API secrets, so it can steal login codes and expose sensitive credentials."
-    },
-    {
-      "ts": "2026-09-07T16:53:11.997772+00:00",
-      "uid": "8065173971",
-      "filename": "main.py",
-      "verdict": "SAFE",
-      "risk_score": 0,
-      "summary": "No high-confidence dangerous behavior found."
-    },
-    {
-      "ts": "2026-09-07T16:53:38.365467+00:00",
-      "uid": "8065173971",
-      "filename": "main.py",
-      "verdict": "SAFE",
-      "risk_score": 0,
-      "summary": "No high-confidence dangerous behavior found."
-    }
-  ],
+  "scan_log": [],
   "notifications": [
     {
-      "id": "177eae63",
-      "ts": "2026-09-07T16:53:14.367434+00:00",
-      "type": "SYSTEM",
-      "msg": "New bot uploaded: 5_6122647155153837266 by UID 8065173971",
-      "uid": "8065173971",
-      "read": false
-    },
-    {
-      "id": "bd78ebdc",
-      "ts": "2026-09-07T09:09:10.253598+00:00",
-      "type": "SYSTEM",
-      "msg": "New user registered: 𝐑𝐗 (UID: 7164313769)",
-      "uid": "7164313769",
-      "read": false
-    },
-    {
-      "id": "1098ea80",
-      "ts": "2026-09-07T02:22:00.121311+00:00",
+      "id": "474c0b23",
+      "ts": "2026-09-25T12:19:18.882169+00:00",
       "type": "PAYMENT",
-      "msg": "Plan 'lifetime' granted to UID 8065173971",
-      "uid": "8065173971",
+      "msg": "Plan 'pro' granted to UID 8807349131",
+      "uid": "8807349131",
       "read": false
     },
     {
-      "id": "04f016ca",
-      "ts": "2026-09-07T02:12:16.959672+00:00",
+      "id": "17e60532",
+      "ts": "2026-09-25T12:16:31.769885+00:00",
       "type": "SYSTEM",
-      "msg": "New bot uploaded: CIPHER_TECH_OTP_1 by UID 8065173971",
-      "uid": "8065173971",
-      "read": false
-    },
-    {
-      "id": "dd35cefa",
-      "ts": "2026-09-07T02:10:22.894701+00:00",
-      "type": "SYSTEM",
-      "msg": "New user registered: 𝐕𝖆𝖓𝖙𝖍𝖊𝖝 (UID: 8065173971)",
-      "uid": "8065173971",
+      "msg": "New user registered: LORD CIPHER (UID: 8807349131)",
+      "uid": "8807349131",
       "read": false
     }
-  ]
+  ],
+  "product_files": {},
+  "activity_feed": [],
+  "achievement_defs": {}
 }
