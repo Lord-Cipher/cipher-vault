@@ -5,9 +5,9 @@
       "name": "LORD CIPHER",
       "username": "lord_ciph3r",
       "plan": "lifetime",
-      "plan_expires": "2126-09-01T12:19:25.322286+00:00",
-      "joined": "2026-09-25T12:16:29.214095+00:00",
-      "last_seen": "2026-09-25T12:21:26.056094+00:00",
+      "plan_expires": "2126-09-01T12:51:39.697844+00:00",
+      "joined": "2026-09-25T12:51:37.903334+00:00",
+      "last_seen": "2026-09-25T12:52:58.595699+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -27,47 +27,27 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 26
-      },
-      "coupons_used": [
-        "TEST"
-      ],
-      "last_expiry_warn": -1
+        "logins": 14
+      }
     }
   },
   "bots": {},
   "payments": [],
   "tickets": {},
-  "coupons": {
-    "TEST": {
-      "percent": 1,
-      "discount_pct": 1,
-      "pct": 1,
-      "discount": 1,
-      "plan": "pro",
-      "uses_left": 0,
-      "max_uses": 1,
-      "expiry": "2026-09-26T12:18:45.507884+00:00",
-      "created": "2026-09-25T12:18:45.507900+00:00",
-      "created_by": 8807349131,
-      "used_by": [
-        8807349131
-      ]
-    }
-  },
+  "coupons": {},
   "admins": {},
   "audit": [
     {
-      "ts": "2026-09-25T12:18:45.508430+00:00",
+      "ts": "2026-09-25T12:52:46.635826+00:00",
       "uid": 8807349131,
-      "action": "coupon_add",
-      "detail": "code=TEST"
+      "action": "gh_auto_toggle",
+      "detail": "now=off"
     },
     {
-      "ts": "2026-09-25T12:19:18.884450+00:00",
+      "ts": "2026-09-25T12:52:49.602737+00:00",
       "uid": 8807349131,
-      "action": "promo_redeem",
-      "detail": "code=TEST plan=pro"
+      "action": "gh_auto_toggle",
+      "detail": "now=on"
     }
   ],
   "scheduled_broadcasts": [],
@@ -76,16 +56,8 @@
   "scan_log": [],
   "notifications": [
     {
-      "id": "474c0b23",
-      "ts": "2026-09-25T12:19:18.882169+00:00",
-      "type": "PAYMENT",
-      "msg": "Plan 'pro' granted to UID 8807349131",
-      "uid": "8807349131",
-      "read": false
-    },
-    {
-      "id": "17e60532",
-      "ts": "2026-09-25T12:16:31.769885+00:00",
+      "id": "43158c82",
+      "ts": "2026-09-25T12:51:39.698419+00:00",
       "type": "SYSTEM",
       "msg": "New user registered: LORD CIPHER (UID: 8807349131)",
       "uid": "8807349131",
