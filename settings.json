@@ -14,6 +14,7 @@
     "plan_upgrades": 0,
     "payments_received": 0
   },
-  "github_token": "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",
-  "github_repo": "Lord-Cipher/cipher-vault"
+  "github_repo": "Lord-Cipher/cipher-vault",
+  "github_token": "[REDACTED]",
+  "github_auto_enabled": true
 }
