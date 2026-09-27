@@ -1,0 +1,6 @@
+# Per-file encryption keys and raw user data must never be committed here.
+keys/
+*.key
+cipher_vault.json
+cipher_vault.env
+.env
