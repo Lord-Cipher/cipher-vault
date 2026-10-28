@@ -5,9 +5,9 @@
       "name": "LORD CIPHER",
       "username": "lord_ciph3r",
       "plan": "lifetime",
-      "plan_expires": "2126-10-03T23:02:39.460995+00:00",
-      "joined": "2026-10-27T23:02:39.164112+00:00",
-      "last_seen": "2026-10-28T10:37:35.848460+00:00",
+      "plan_expires": "2126-10-04T10:54:58.573328+00:00",
+      "joined": "2026-10-28T10:54:58.197217+00:00",
+      "last_seen": "2026-10-28T10:58:01.809778+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -27,7 +27,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 45
+        "logins": 18
       }
     }
   },
@@ -38,13 +38,7 @@
   "admins": {},
   "audit": [
     {
-      "ts": "2026-10-27T23:04:26.223224+00:00",
-      "uid": 8807349131,
-      "action": "vault_token_set",
-      "detail": "validated and encrypted"
-    },
-    {
-      "ts": "2026-10-28T10:28:30.669950+00:00",
+      "ts": "2026-10-28T10:56:54.519250+00:00",
       "uid": 8807349131,
       "action": "vault_token_set",
       "detail": "validated and encrypted"
@@ -54,23 +48,8 @@
   "notes": {},
   "rate_violations": {},
   "scan_log": [],
-  "notifications": [
-    {
-      "id": "92329351",
-      "ts": "2026-10-27T23:02:39.461591+00:00",
-      "type": "SYSTEM",
-      "msg": "New user registered: LORD CIPHER (UID: 8807349131)",
-      "uid": "8807349131",
-      "read": false
-    }
-  ],
+  "notifications": [],
   "product_files": {},
   "activity_feed": [],
-  "achievement_defs": {},
-  "kernel_buffer": [
-    {
-      "uid": 8807349131,
-      "ts": 1793183354.280243
-    }
-  ]
+  "achievement_defs": {}
 }
