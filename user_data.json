@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2126-10-04T10:54:58.573328+00:00",
       "joined": "2026-10-28T10:54:58.197217+00:00",
-      "last_seen": "2026-10-28T10:58:22.411129+00:00",
+      "last_seen": "2026-10-28T10:58:34.919285+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -27,7 +27,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 0,
-        "logins": 20
+        "logins": 21
       }
     }
   },
