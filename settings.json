@@ -15,36 +15,19 @@
     },
     "vault_token_key_id": "[REDACTED]",
     "vault_token_cipher": "[REDACTED]",
-    "vault_key_key_id": "F8BKwM-Nnvgrm7p295nckQ",
+    "vault_key_key_id": "_7TAbxT9D_nPRuuUm19u2g",
     "vault_key_cipher": "[REDACTED]",
     "vault_history": [
       {
-        "snapshotId": "20261028T102835Z-ebd3e344c201",
-        "commit": "694658a42e6a9c33bae3e672e6d2edd214ade5be",
-        "createdAt": "2026-10-28T10:28:35.964646+00:00",
-        "fileCount": 58,
-        "sizeBytes": 586457,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T102906Z-7172f7cf2cfd",
-        "commit": "98736234772af378d50dbc6c9a580afeddeb34ae",
-        "createdAt": "2026-10-28T10:29:06.348186+00:00",
-        "fileCount": 58,
-        "sizeBytes": 586623,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T102911Z-4633696f254a",
-        "commit": "e82ec8df937ee0f0b16be4fad951c746783c4333",
-        "createdAt": "2026-10-28T10:29:11.402801+00:00",
-        "fileCount": 58,
-        "sizeBytes": 586694,
+        "snapshotId": "20261028T105706Z-8828766e3145",
+        "commit": "2b58f13eb642a9ba64ead957c3700db02553c0ee",
+        "createdAt": "2026-10-28T10:57:06.181226+00:00",
+        "fileCount": 57,
+        "sizeBytes": 585774,
         "ok": true
       }
     ],
     "github_token": "[REDACTED]",
-    "github_repo": "Lord-Cipher/cipher-vault",
-    "github_last_backup": "2026-10-28T10:32:00.637468+00:00"
+    "github_repo": "Lord-Cipher/cipher-vault"
   }
 }
