@@ -5,9 +5,9 @@
       "name": "LORD CIPHER",
       "username": "lord_ciph3r",
       "plan": "lifetime",
-      "plan_expires": "2126-10-04T10:54:58.573328+00:00",
-      "joined": "2026-10-28T10:54:58.197217+00:00",
-      "last_seen": "2026-10-28T10:58:34.919285+00:00",
+      "plan_expires": "2126-10-04T21:04:36.931169+00:00",
+      "joined": "2026-10-28T21:04:36.522751+00:00",
+      "last_seen": "2026-11-01T11:21:51.394436+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -26,30 +26,612 @@
       "bot_slot_grants": [],
       "stats": {
         "commands": 0,
-        "bots_uploaded": 0,
-        "logins": 21
+        "bots_uploaded": 2,
+        "logins": 286
       }
+    },
+    "8179629982": {
+      "_id": 8179629982,
+      "name": "€$《□●Noob_hacker♡♤》₩",
+      "username": "Noob_hacker254",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-10-30T18:17:03.972156+00:00",
+      "last_seen": "2026-10-30T18:18:17.029754+00:00",
+      "banned": false,
+      "ban_reason": "",
+      "wallet": 0,
+      "kyc": false,
+      "verified": true,
+      "verified_at": "2026-10-30T18:17:11.118562+00:00",
+      "ref_by": null,
+      "ref_count": 0,
+      "ref_credit": 0,
+      "trial_used": false,
+      "file_coins": 0,
+      "bot_slots_bonus": 0,
+      "xp": 0,
+      "achievements": [],
+      "product_access": {},
+      "bot_slot_grants": [],
+      "stats": {
+        "commands": 0,
+        "bots_uploaded": 0,
+        "logins": 13
+      },
+      "ai_profile_shared": true,
+      "ai_profile_shared_at": "2026-10-30T18:17:11.118584+00:00",
+      "ai_coding_models": [
+        "claude"
+      ],
+      "ai_memory": [
+        {
+          "role": "user",
+          "text": "Hello"
+        },
+        {
+          "role": "assistant",
+          "text": "Hello @Noob_hacker254! I am your AI assistant. I can help with general questions, coding, writing, analysis, and Cipher Tech Hosting. What would you like to work on?"
+        },
+        {
+          "role": "user",
+          "text": "How are you"
+        },
+        {
+          "role": "assistant",
+          "text": "Hello @Noob_hacker254! I am your AI assistant. I can help with general questions, coding, writing, analysis, and Cipher Tech Hosting. What would you like to work on?"
+        },
+        {
+          "role": "user",
+          "text": "Who is your master"
+        },
+        {
+          "role": "assistant",
+          "text": "Lord Cipher is my creator, mentor, and master within Cipher Tech Hosting. He founded and owns the platform and built/configured this assistant. The underlying language model may be supplied by a separate AI provider."
+        }
+      ],
+      "ai_last_chat": "2026-10-30T18:18:17.031366+00:00"
     }
   },
-  "bots": {},
-  "payments": [],
-  "tickets": {},
+  "bots": {
+    "9cfc4bd78f634264": {
+      "_id": "9cfc4bd78f634264",
+      "owner": 8807349131,
+      "name": "python_conversion",
+      "dir": "/app/sandbox/8807349131_9cfc4bd78f634264",
+      "created": "2026-10-29T08:17:40.619489+00:00",
+      "enc_files": [
+        {
+          "key_id": "5pRSHV0S75tM67Zt5Z8VuA",
+          "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_env_example.enc",
+          "filename": ".env.example",
+          "rel_path": "python_conversion/.env.example"
+        },
+        {
+          "key_id": "h_xNCsKvkw-2GdlcxrX31A",
+          "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_README_md.enc",
+          "filename": "README.md",
+          "rel_path": "python_conversion/README.md"
+        },
+        {
+          "key_id": "RbiSdMwrw3oNRuj8LPc2WA",
+          "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_bot_py.enc",
+          "filename": "bot.py",
+          "rel_path": "python_conversion/bot.py"
+        },
+        {
+          "key_id": "NiIS6wY5T2Ks97GC7T9E9w",
+          "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_credit_txt.enc",
+          "filename": "credit.txt",
+          "rel_path": "python_conversion/credit.txt"
+        },
+        {
+          "key_id": "UNzs3bluK5co61fyBjaJqg",
+          "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "python_conversion/requirements.txt"
+        }
+      ],
+      "env": {},
+      "status": "crash_loop",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 13,
+        "summary": "🔍 File is suspicious. 🤖 AI (SUSPICIOUS 45/100): The code shown mainly implements a Telegram digital-store bot, but it reads and writes local user, payment, balance, and order data and includes configurable external payment API settings that require review.",
+        "recommendation": "MANUAL_REVIEW",
+        "ai_model": "gpt-4o-mini"
+      },
+      "gh_synced_at": 1793392662,
+      "approval_status": "approved",
+      "admin_trusted": true,
+      "trusted_execution": true,
+      "last_started": "2026-10-29T08:20:49.331449+00:00",
+      "last_error": "Using cached yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)\nInstalling collected packages: urllib3, typing_extensions, python-dotenv, propcache, multidict, idna, frozenlist, charset_normalizer, certifi, attrs, aiohappyeyeballs, yarl, requests, aiosignal, aiohttp, pyTelegramBotAPI\nSuccessfully installed aiohappyeyeballs-2.7.1 aiohttp-3.14.5 aiosignal-1.4.0 attrs-26.1.0 certifi-2026.10.23 charset_normalizer-3.5.2 frozenlist-1.8.0 idna-3.20 multidict-7.2.1 propcache-0.5.4 pyTelegramBotAPI-4.37.1 python-dotenv-1.2.4 requests-2.34.2 typing_extensions-4.16.0 urllib3-2.8.0 yarl-1.25.1\n[✓] requirements.txt done (rc=0)\n * Serving Flask app 'bot'\n * Debug mode: off\nAddress already in use\nPort 8080 is in use by another program. Either identify and stop that program, or start the server with a different port.",
+      "last_exit_code": 1,
+      "last_exit_at": "2026-10-29T08:20:49.589954+00:00",
+      "crash_window_started": 1793261875.3475027,
+      "crash_count": 6,
+      "last_crash_at": "2026-10-29T08:20:49.591668+00:00",
+      "auto_restart_suspended": true,
+      "next_restart_at": 1793262045.5648127,
+      "restart_blocked_reason": "Crash limit reached: 5 automatic restarts in the current window.",
+      "crash_loop_notified_at": "2026-10-29T08:20:49.591678+00:00"
+    },
+    "db0056d84c13f801": {
+      "_id": "db0056d84c13f801",
+      "owner": 8807349131,
+      "name": "aliwbug_1",
+      "dir": "/app/sandbox/8807349131_db0056d84c13f801",
+      "created": "2026-11-01T11:17:59.195625+00:00",
+      "enc_files": [
+        {
+          "key_id": "q4sVzYVdHWEVXPvxurvVSg",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_env.enc",
+          "filename": ".env",
+          "rel_path": ".env"
+        },
+        {
+          "key_id": "ru4tKz2pOM2a8GwJnUZJ-g",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_README_md.enc",
+          "filename": "README.md",
+          "rel_path": "README.md"
+        },
+        {
+          "key_id": "_tJMmEgaveWVUthJfv_aMQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_package_json.enc",
+          "filename": "package.json",
+          "rel_path": "package.json"
+        },
+        {
+          "key_id": "2xF2-B3en46MD57HQocPHw",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bootstrap_js.enc",
+          "filename": "bootstrap.js",
+          "rel_path": "src/bootstrap.js"
+        },
+        {
+          "key_id": "8LlwPkina90mD0OiZfn4MQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_deploy_js.enc",
+          "filename": "deploy.js",
+          "rel_path": "src/bot/deploy.js"
+        },
+        {
+          "key_id": "IWp0XxanzbRNYXB4H3qmNg",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_callbacks_js.enc",
+          "filename": "callbacks.js",
+          "rel_path": "src/bot/handlers/callbacks.js"
+        },
+        {
+          "key_id": "7px2xO7GOSLckbN5MbuOOQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_commands_js.enc",
+          "filename": "commands.js",
+          "rel_path": "src/bot/handlers/commands.js"
+        },
+        {
+          "key_id": "nDfMZUmKkREz0nfFNkLJJw",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_index_js.enc",
+          "filename": "index.js",
+          "rel_path": "src/bot/handlers/index.js"
+        },
+        {
+          "key_id": "l4Ea_lP8JTA-xfOaLvqd_A",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_runtime_js.enc",
+          "filename": "runtime.js",
+          "rel_path": "src/bot/handlers/runtime.js"
+        },
+        {
+          "key_id": "NDISQtE_z8bKRB6HnZ13Ww",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_logger_js.enc",
+          "filename": "logger.js",
+          "rel_path": "src/bot/logger.js"
+        },
+        {
+          "key_id": "QP6tzRSLQ1nhUqP2R0kaEQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_menu_js.enc",
+          "filename": "menu.js",
+          "rel_path": "src/bot/menu.js"
+        },
+        {
+          "key_id": "FwopilKIc_6yVAh-JKdexA",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_travas_js.enc",
+          "filename": "travas.js",
+          "rel_path": "src/bot/travas.js"
+        },
+        {
+          "key_id": "9-q-uBjtfRh5y_mndKasmQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_vvipCooldown_js.enc",
+          "filename": "vvipCooldown.js",
+          "rel_path": "src/bot/vvipCooldown.js"
+        },
+        {
+          "key_id": "OyKJNSC4VCr2TXRketB14Q",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_whatsapp_js.enc",
+          "filename": "whatsapp.js",
+          "rel_path": "src/bot/whatsapp.js"
+        },
+        {
+          "key_id": "F_zHYt3pdKUvN1OV5zwyMw",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_config_config_js.enc",
+          "filename": "config.js",
+          "rel_path": "src/config/config.js"
+        },
+        {
+          "key_id": "B5SQk1Lq2yn57G2EcQc2wQ",
+          "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_data_database_js.enc",
+          "filename": "database.js",
+          "rel_path": "src/data/database.js"
+        }
+      ],
+      "env": {},
+      "status": "crash_loop",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 17,
+        "summary": "🔍 File is suspicious. 🤖 AI (SUSPICIOUS 58/100): The snippet mainly implements Telegram bot administration and WhatsApp session management, but it imports powerful backup, restore, file, and external-session functionality whose safety cannot be verified from the partial code.",
+        "recommendation": "MANUAL_REVIEW",
+        "ai_model": "gpt-4o-mini"
+      },
+      "gh_synced_at": 0,
+      "approval_status": "approved",
+      "admin_trusted": true,
+      "trusted_execution": true,
+      "last_started": "2026-11-01T11:20:14.961491+00:00",
+      "last_error": "⡇⠘⠇⠆⠀⠓⠛⠚⠀⠀⠘⠇⠃⡇⣀⢀⡀\n⠙⠦⣄⡀⠀⠀⠀⠀⠀⠀⢀⣠⠴⠃⠹⡿⠃\n⠀⣠⠃⢠⠔⠂⠉⡆⠀⠀⠠⠔⠒⠚⢱⠀⠀\n⠀⡏⠚⠀⠀⡠⠊⠀⠀⠀⠀⢠⡤⠴⠃⠀⠀\n⢘⠁⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀\nRenn Baileys — a Baileys-based WhatsApp Web library\nStay updated with the latest Renn Baileys news:\nhttps://github.com/rennshit/baileys",
+      "last_exit_code": 0,
+      "last_exit_at": "2026-11-01T11:20:15.640137+00:00",
+      "crash_window_started": 1793531957.799681,
+      "crash_count": 6,
+      "last_crash_at": "2026-11-01T11:20:15.642325+00:00",
+      "auto_restart_suspended": true,
+      "next_restart_at": 1793532072.5566413,
+      "restart_blocked_reason": "Crash limit reached: 5 automatic restarts in the current window.",
+      "crash_loop_notified_at": "2026-11-01T11:20:15.642339+00:00"
+    }
+  },
+  "payments": [
+    {
+      "id": "1CR4R19V",
+      "uid": 8807349131,
+      "method": "topup",
+      "plan": null,
+      "amount": 1000,
+      "currency": "USD",
+      "amount_usd": 1000.0,
+      "status": "rejected",
+      "ts": "2026-10-29T05:50:57.383013+00:00",
+      "kind": "wallet_topup",
+      "rejected_by": 8807349131,
+      "rejected_at": "2026-10-29T05:51:07.257735+00:00"
+    }
+  ],
+  "tickets": {
+    "4PWVBJ": {
+      "id": "4PWVBJ",
+      "uid": 8807349131,
+      "subject": "ERROR DETECTED",
+      "status": "open",
+      "messages": [
+        {
+          "from": "user",
+          "text": "the current button on the quota forecasting",
+          "ts": "2026-10-29T05:57:35.928875+00:00"
+        },
+        {
+          "from": "user",
+          "text": "Ok we'll be fixing it soon",
+          "ts": "2026-10-29T05:59:57.576722+00:00"
+        }
+      ],
+      "opened_at": "2026-10-29T05:57:35.928884+00:00"
+    }
+  },
   "coupons": {},
   "admins": {},
   "audit": [
     {
-      "ts": "2026-10-28T10:56:54.519250+00:00",
+      "ts": "2026-10-28T21:12:27.324472+00:00",
       "uid": 8807349131,
-      "action": "vault_token_set",
-      "detail": "validated and encrypted"
+      "action": "ai_scanner_model",
+      "detail": "agents-claude-opus-4"
+    },
+    {
+      "ts": "2026-10-28T21:12:34.800200+00:00",
+      "uid": 8807349131,
+      "action": "ai_delete_claude",
+      "detail": "deactivated"
+    },
+    {
+      "ts": "2026-10-28T21:12:37.269211+00:00",
+      "uid": 8807349131,
+      "action": "ai_delete_claude",
+      "detail": "deactivated"
+    },
+    {
+      "ts": "2026-10-28T21:12:38.819435+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_claude",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:12:40.926033+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_claude",
+      "detail": "now=off"
+    },
+    {
+      "ts": "2026-10-28T21:12:42.140566+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_chatbot",
+      "detail": "now=off"
+    },
+    {
+      "ts": "2026-10-28T21:12:42.865039+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_gpt-4o-mini",
+      "detail": "now=off"
+    },
+    {
+      "ts": "2026-10-28T21:12:44.988961+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_gpt-4o-mini",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:12:45.248516+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_chatbot",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:12:47.605905+00:00",
+      "uid": 8807349131,
+      "action": "ai_toggle_claude",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:12:50.911341+00:00",
+      "uid": 8807349131,
+      "action": "ai_coding_pool",
+      "detail": "now=off"
+    },
+    {
+      "ts": "2026-10-28T21:12:52.287479+00:00",
+      "uid": 8807349131,
+      "action": "ai_coding_pool",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:12:53.581659+00:00",
+      "uid": 8807349131,
+      "action": "ai_chat_pool",
+      "detail": "now=off"
+    },
+    {
+      "ts": "2026-10-28T21:12:54.795327+00:00",
+      "uid": 8807349131,
+      "action": "ai_chat_pool",
+      "detail": "now=on"
+    },
+    {
+      "ts": "2026-10-28T21:13:45.113698+00:00",
+      "uid": 8807349131,
+      "action": "set_theme",
+      "detail": "midnight"
+    },
+    {
+      "ts": "2026-10-28T21:13:46.764077+00:00",
+      "uid": 8807349131,
+      "action": "set_theme",
+      "detail": "ocean"
+    },
+    {
+      "ts": "2026-10-28T21:13:50.091340+00:00",
+      "uid": 8807349131,
+      "action": "set_theme",
+      "detail": "forest"
+    },
+    {
+      "ts": "2026-10-28T21:13:52.993919+00:00",
+      "uid": 8807349131,
+      "action": "set_theme",
+      "detail": "ice"
+    },
+    {
+      "ts": "2026-10-28T23:19:06.609741+00:00",
+      "uid": 8807349131,
+      "action": "bc_toggle_env_strip_secrets",
+      "detail": "now=False"
+    },
+    {
+      "ts": "2026-10-28T23:19:10.275551+00:00",
+      "uid": 8807349131,
+      "action": "bc_toggle_env_strip_secrets",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:51:07.258675+00:00",
+      "uid": 8807349131,
+      "action": "pay_reject",
+      "detail": "pid=1CR4R19V"
+    },
+    {
+      "ts": "2026-10-29T05:54:29.497012+00:00",
+      "uid": 8807349131,
+      "action": "notify_user",
+      "detail": "to=8807349131"
+    },
+    {
+      "ts": "2026-10-29T05:55:39.493740+00:00",
+      "uid": 8807349131,
+      "action": "export_config",
+      "detail": ""
+    },
+    {
+      "ts": "2026-10-29T05:56:00.218960+00:00",
+      "uid": 8807349131,
+      "action": "settings_import",
+      "detail": "6 keys"
+    },
+    {
+      "ts": "2026-10-29T05:58:09.231859+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_clean_orphan_dirs",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:09.540715+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_clean_old_logs",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:20.238250+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_clean_expired_coupons",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:20.389880+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_auto_ban_rate_abuse",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:30.490253+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_notify_crashed",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:30.630505+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_auto_ban_rate_abuse",
+      "detail": "now=False"
+    },
+    {
+      "ts": "2026-10-29T05:58:40.717068+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_clean_old_audit",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:58:40.853040+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_clean_old_audit",
+      "detail": "now=False"
+    },
+    {
+      "ts": "2026-10-29T05:58:50.935181+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_notify_crashed",
+      "detail": "now=False"
+    },
+    {
+      "ts": "2026-10-29T05:58:51.051517+00:00",
+      "uid": 8807349131,
+      "action": "jan_toggle_auto_ban_rate_abuse",
+      "detail": "now=True"
+    },
+    {
+      "ts": "2026-10-29T05:59:01.230650+00:00",
+      "uid": 8807349131,
+      "action": "janitor_run_now",
+      "detail": "tasks=2"
+    },
+    {
+      "ts": "2026-10-30T18:17:11.625927+00:00",
+      "uid": 8179629982,
+      "action": "captcha_pass",
+      "detail": "verified after 0 try(s)"
+    },
+    {
+      "ts": "2026-10-30T20:37:37.205600+00:00",
+      "uid": 8807349131,
+      "action": "export_config",
+      "detail": ""
     }
   ],
   "scheduled_broadcasts": [],
   "notes": {},
   "rate_violations": {},
-  "scan_log": [],
-  "notifications": [],
+  "scan_log": [
+    {
+      "ts": "2026-10-29T08:17:45.667630+00:00",
+      "uid": "8807349131",
+      "filename": "bot.py",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 13,
+      "summary": "🔍 File is suspicious. 🤖 AI (SUSPICIOUS 45/100): The code shown mainly implements a Telegram digital-store bot, but it reads and writes local user, payment, balance, and order data and includes configu",
+      "ai_model": "gpt-4o-mini"
+    },
+    {
+      "ts": "2026-11-01T11:18:06.405966+00:00",
+      "uid": "8807349131",
+      "filename": "commands.js",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 17,
+      "summary": "🔍 File is suspicious. 🤖 AI (SUSPICIOUS 58/100): The snippet mainly implements Telegram bot administration and WhatsApp session management, but it imports powerful backup, restore, file, and external-s",
+      "ai_model": "gpt-4o-mini"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "d724760d",
+      "ts": "2026-11-01T11:18:07.574486+00:00",
+      "type": "SYSTEM",
+      "msg": "New bot uploaded: aliwbug_1 by UID 8807349131",
+      "uid": "8807349131",
+      "read": false
+    },
+    {
+      "id": "d23193b6",
+      "ts": "2026-11-01T11:17:59.879697+00:00",
+      "type": "SYSTEM",
+      "msg": "AI operative claude is unstable. Its circuit breaker opened for 300 seconds.",
+      "uid": null,
+      "read": false
+    },
+    {
+      "id": "85b5160f",
+      "ts": "2026-10-30T18:17:04.427185+00:00",
+      "type": "SYSTEM",
+      "msg": "New user registered: €$《□●Noob_hacker♡♤》₩ (UID: 8179629982)",
+      "uid": "8179629982",
+      "read": false
+    },
+    {
+      "id": "d502576e",
+      "ts": "2026-10-29T08:17:46.959404+00:00",
+      "type": "SYSTEM",
+      "msg": "New bot uploaded: python_conversion by UID 8807349131",
+      "uid": "8807349131",
+      "read": false
+    },
+    {
+      "id": "28c03f8b",
+      "ts": "2026-10-28T21:04:36.931763+00:00",
+      "type": "SYSTEM",
+      "msg": "New user registered: LORD CIPHER (UID: 8807349131)",
+      "uid": "8807349131",
+      "read": false
+    }
+  ],
   "product_files": {},
   "activity_feed": [],
-  "achievement_defs": {}
+  "achievement_defs": {},
+  "kernel_buffer": [
+    {
+      "uid": 8807349131,
+      "ts": 1793253306.3667512
+    },
+    {
+      "uid": 8807349131,
+      "ts": 1793253343.8388462
+    },
+    {
+      "uid": 8807349131,
+      "ts": 1793392662.189493
+    }
+  ]
 }
