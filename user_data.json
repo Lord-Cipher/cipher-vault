@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2126-10-04T21:04:36.931169+00:00",
       "joined": "2026-10-28T21:04:36.522751+00:00",
-      "last_seen": "2026-11-01T11:22:44.964931+00:00",
+      "last_seen": "2026-11-01T11:24:12.147982+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -27,7 +27,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 289
+        "logins": 300
       }
     },
     "8179629982": {
@@ -550,6 +550,12 @@
       "uid": 8807349131,
       "action": "export_config",
       "detail": ""
+    },
+    {
+      "ts": "2026-11-01T11:23:33.066775+00:00",
+      "uid": 8807349131,
+      "action": "vault_token_set",
+      "detail": "validated and encrypted"
     }
   ],
   "scheduled_broadcasts": [],
