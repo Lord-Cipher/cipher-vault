@@ -45,7 +45,8 @@
     "jan_notify_crashed": false,
     "jan_clean_old_audit": false,
     "github_token": "[REDACTED]",
-    "github_repo": "Lord-Cipher/cipher-vault"
+    "github_repo": "Lord-Cipher/cipher-vault",
+    "github_last_backup": "2026-11-01T11:22:26.023777+00:00"
   },
   "plan_limits": {
     "free": {
