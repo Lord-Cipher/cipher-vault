@@ -1,6 +1,31 @@
 {
+  "export_ts": "2026-10-29T05:55:39.018303+00:00",
+  "bot_version": "2.1",
+  "brand_tag": "ᶜᴵᴾᴴᴱᴿ ᵀᴱᶜʜ ᴴᴼˢᵀ v2.1",
   "settings": {
-    "pending_uploads": {},
+    "settings": {
+      "pending_uploads": {},
+      "metrics_total": {
+        "messages_received": 0,
+        "callbacks_received": 0,
+        "bot_starts": 0,
+        "bot_stops": 0,
+        "bot_crashes": 0,
+        "uploads": 0,
+        "errors": 0,
+        "commands": 0,
+        "plan_upgrades": 0,
+        "payments_received": 0
+      },
+      "ai_scanner_model": "agents-claude-opus-4",
+      "ai_operative_claude_enabled": true,
+      "ai_operative_chatbot_enabled": true,
+      "ai_operative_gpt-4o-mini_enabled": true,
+      "ai_coding_pool_enabled": true,
+      "ai_chat_pool_enabled": true,
+      "ui_theme": "ice",
+      "bc_env_strip_secrets": "[REDACTED]"
+    },
     "metrics_total": {
       "messages_received": 0,
       "callbacks_received": 0,
@@ -13,78 +38,91 @@
       "plan_upgrades": 0,
       "payments_received": 0
     },
-    "vault_token_key_id": "[REDACTED]",
-    "vault_token_cipher": "[REDACTED]",
-    "vault_key_key_id": "_7TAbxT9D_nPRuuUm19u2g",
-    "vault_key_cipher": "[REDACTED]",
-    "vault_history": [
-      {
-        "snapshotId": "20261028T105706Z-8828766e3145",
-        "commit": "2b58f13eb642a9ba64ead957c3700db02553c0ee",
-        "createdAt": "2026-10-28T10:57:06.181226+00:00",
-        "fileCount": 57,
-        "sizeBytes": 585774,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T112003Z-673c10e8ec16",
-        "commit": "5f7008d0cdfa52b4c6fe1dc65431a678a5087bf7",
-        "createdAt": "2026-10-28T11:20:03.788039+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586053,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T115006Z-e9c8dab1a893",
-        "commit": "df6bf2f6011c736b724f59b5f76ce2dcb1beef14",
-        "createdAt": "2026-10-28T11:50:06.925665+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586204,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T122009Z-c20ef4c18175",
-        "commit": "5498a5c9d63b70bc0114a7b3a85d16415053c969",
-        "createdAt": "2026-10-28T12:20:09.774019+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586282,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T125012Z-225d1d120b56",
-        "commit": "fb83bedce23bcfeaf29cb88b0c6190ba705bf45b",
-        "createdAt": "2026-10-28T12:50:12.908025+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586358,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T132016Z-bea290781c76",
-        "commit": "ed2e5da8ebe44ac0cc2942b8690998def6142417",
-        "createdAt": "2026-10-28T13:20:16.026627+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586447,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T135019Z-7e5890496cc8",
-        "commit": "0a50fbe30c376a2cd6a24c4e8c381ab27c5e4415",
-        "createdAt": "2026-10-28T13:50:19.028641+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586512,
-        "ok": true
-      },
-      {
-        "snapshotId": "20261028T142022Z-6ea2b3522215",
-        "commit": "e9e6daff85807c823e1a35c99d4032156cc485b3",
-        "createdAt": "2026-10-28T14:20:22.281189+00:00",
-        "fileCount": 57,
-        "sizeBytes": 586586,
-        "ok": true
-      }
-    ],
+    "jan_clean_orphan_dirs": true,
+    "jan_clean_old_logs": true,
+    "jan_clean_expired_coupons": true,
+    "jan_auto_ban_rate_abuse": true,
+    "jan_notify_crashed": false,
+    "jan_clean_old_audit": false,
     "github_token": "[REDACTED]",
-    "github_repo": "Lord-Cipher/cipher-vault",
-    "github_last_backup": "2026-10-28T10:58:28.821134+00:00"
+    "github_repo": "Lord-Cipher/cipher-vault"
+  },
+  "plan_limits": {
+    "free": {
+      "name": "Free",
+      "max_bots": 2,
+      "ram": 128,
+      "cpu": 50,
+      "auto_restart": false,
+      "days": 0
+    },
+    "starter": {
+      "name": "Starter",
+      "max_bots": 4,
+      "ram": 256,
+      "cpu": 100,
+      "auto_restart": true,
+      "days": 30
+    },
+    "basic": {
+      "name": "Basic",
+      "max_bots": 6,
+      "ram": 512,
+      "cpu": 150,
+      "auto_restart": true,
+      "days": 30
+    },
+    "pro": {
+      "name": "Pro",
+      "max_bots": 8,
+      "ram": 2048,
+      "cpu": 200,
+      "auto_restart": true,
+      "days": 30
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "max_bots": 10,
+      "ram": 4096,
+      "cpu": 400,
+      "auto_restart": true,
+      "days": 30
+    },
+    "lifetime": {
+      "name": "Lifetime",
+      "max_bots": 15,
+      "ram": 8192,
+      "cpu": 800,
+      "auto_restart": true,
+      "days": 36500
+    }
+  },
+  "feature_flags": {
+    "user_registration": true,
+    "bot_upload": true,
+    "bot_auto_start": true,
+    "payment_system": true,
+    "coupon_system": true,
+    "referral_system": true,
+    "ticket_system": true,
+    "wallet_topup": true,
+    "gift_plan": true,
+    "trial_plan": true,
+    "public_stats": false,
+    "bot_logs_user": true,
+    "multi_file_upload": true,
+    "github_backup": true,
+    "cloudflare_tunnel": true,
+    "ai_scanner": true,
+    "file_catalog": true,
+    "approval_system": true,
+    "maintenance_bypass": false,
+    "sandbox_wipe": true,
+    "rate_limiting": true,
+    "audit_logging": true,
+    "auto_restart_bots": true,
+    "broadcast_enabled": true,
+    "webhook_notifications": false,
+    "2fa_required": false
   }
 }
