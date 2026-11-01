@@ -1,0 +1,42 @@
+{
+  "bot_id": "9cfc4bd78f634264",
+  "owner": 8807349131,
+  "name": "python_conversion",
+  "enc_files": [
+    {
+      "key_id": "5pRSHV0S75tM67Zt5Z8VuA",
+      "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_env_example.enc",
+      "filename": ".env.example",
+      "rel_path": "python_conversion/.env.example"
+    },
+    {
+      "key_id": "h_xNCsKvkw-2GdlcxrX31A",
+      "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_README_md.enc",
+      "filename": "README.md",
+      "rel_path": "python_conversion/README.md"
+    },
+    {
+      "key_id": "RbiSdMwrw3oNRuj8LPc2WA",
+      "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_bot_py.enc",
+      "filename": "bot.py",
+      "rel_path": "python_conversion/bot.py"
+    },
+    {
+      "key_id": "NiIS6wY5T2Ks97GC7T9E9w",
+      "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_credit_txt.enc",
+      "filename": "credit.txt",
+      "rel_path": "python_conversion/credit.txt"
+    },
+    {
+      "key_id": "UNzs3bluK5co61fyBjaJqg",
+      "enc_path": "/app/storage/encfiles/8807349131/1793261866_python_conversion_requirements_txt.enc",
+      "filename": "requirements.txt",
+      "rel_path": "python_conversion/requirements.txt"
+    }
+  ],
+  "env": {},
+  "cron": {},
+  "status": "crash_loop",
+  "created": "2026-10-29T08:17:40.619489+00:00",
+  "synced": "2026-11-01T11:21:59.148165+00:00"
+}
