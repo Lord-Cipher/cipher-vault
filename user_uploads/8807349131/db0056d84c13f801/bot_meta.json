@@ -1,0 +1,108 @@
+{
+  "bot_id": "db0056d84c13f801",
+  "owner": 8807349131,
+  "name": "aliwbug_1",
+  "enc_files": [
+    {
+      "key_id": "q4sVzYVdHWEVXPvxurvVSg",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_env.enc",
+      "filename": ".env",
+      "rel_path": ".env"
+    },
+    {
+      "key_id": "ru4tKz2pOM2a8GwJnUZJ-g",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_README_md.enc",
+      "filename": "README.md",
+      "rel_path": "README.md"
+    },
+    {
+      "key_id": "_tJMmEgaveWVUthJfv_aMQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_package_json.enc",
+      "filename": "package.json",
+      "rel_path": "package.json"
+    },
+    {
+      "key_id": "2xF2-B3en46MD57HQocPHw",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bootstrap_js.enc",
+      "filename": "bootstrap.js",
+      "rel_path": "src/bootstrap.js"
+    },
+    {
+      "key_id": "8LlwPkina90mD0OiZfn4MQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_deploy_js.enc",
+      "filename": "deploy.js",
+      "rel_path": "src/bot/deploy.js"
+    },
+    {
+      "key_id": "IWp0XxanzbRNYXB4H3qmNg",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_callbacks_js.enc",
+      "filename": "callbacks.js",
+      "rel_path": "src/bot/handlers/callbacks.js"
+    },
+    {
+      "key_id": "7px2xO7GOSLckbN5MbuOOQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_commands_js.enc",
+      "filename": "commands.js",
+      "rel_path": "src/bot/handlers/commands.js"
+    },
+    {
+      "key_id": "nDfMZUmKkREz0nfFNkLJJw",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_index_js.enc",
+      "filename": "index.js",
+      "rel_path": "src/bot/handlers/index.js"
+    },
+    {
+      "key_id": "l4Ea_lP8JTA-xfOaLvqd_A",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_handlers_runtime_js.enc",
+      "filename": "runtime.js",
+      "rel_path": "src/bot/handlers/runtime.js"
+    },
+    {
+      "key_id": "NDISQtE_z8bKRB6HnZ13Ww",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_logger_js.enc",
+      "filename": "logger.js",
+      "rel_path": "src/bot/logger.js"
+    },
+    {
+      "key_id": "QP6tzRSLQ1nhUqP2R0kaEQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_menu_js.enc",
+      "filename": "menu.js",
+      "rel_path": "src/bot/menu.js"
+    },
+    {
+      "key_id": "FwopilKIc_6yVAh-JKdexA",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_travas_js.enc",
+      "filename": "travas.js",
+      "rel_path": "src/bot/travas.js"
+    },
+    {
+      "key_id": "9-q-uBjtfRh5y_mndKasmQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_vvipCooldown_js.enc",
+      "filename": "vvipCooldown.js",
+      "rel_path": "src/bot/vvipCooldown.js"
+    },
+    {
+      "key_id": "OyKJNSC4VCr2TXRketB14Q",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_bot_whatsapp_js.enc",
+      "filename": "whatsapp.js",
+      "rel_path": "src/bot/whatsapp.js"
+    },
+    {
+      "key_id": "F_zHYt3pdKUvN1OV5zwyMw",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_config_config_js.enc",
+      "filename": "config.js",
+      "rel_path": "src/config/config.js"
+    },
+    {
+      "key_id": "B5SQk1Lq2yn57G2EcQc2wQ",
+      "enc_path": "/app/storage/encfiles/8807349131/1793531887_src_data_database_js.enc",
+      "filename": "database.js",
+      "rel_path": "src/data/database.js"
+    }
+  ],
+  "env": {},
+  "cron": {},
+  "status": "crash_loop",
+  "created": "2026-11-01T11:17:59.195625+00:00",
+  "synced": "2026-11-01T11:22:21.643986+00:00"
+}
