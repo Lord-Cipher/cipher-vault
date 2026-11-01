@@ -46,7 +46,21 @@
     "jan_clean_old_audit": false,
     "github_token": "[REDACTED]",
     "github_repo": "Lord-Cipher/cipher-vault",
-    "github_last_backup": "2026-11-01T11:22:26.023777+00:00"
+    "github_last_backup": "2026-11-01T11:22:26.023777+00:00",
+    "vault_token_key_id": "[REDACTED]",
+    "vault_token_cipher": "[REDACTED]",
+    "vault_key_key_id": "sl1A2UYsI93U80hXiPG1RQ",
+    "vault_key_cipher": "[REDACTED]",
+    "vault_history": [
+      {
+        "snapshotId": "20261101T112350Z-5c969fe5a9eb",
+        "commit": "de5dd08cff084ccc72154e64d25a6d0f9c7be185",
+        "createdAt": "2026-11-01T11:23:50.080455+00:00",
+        "fileCount": 133,
+        "sizeBytes": 932193,
+        "ok": true
+      }
+    ]
   },
   "plan_limits": {
     "free": {
