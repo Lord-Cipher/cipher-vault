@@ -1,0 +1,18 @@
+{
+  "format": "cipher-platform-full-state-v1",
+  "createdAt": "2026-11-01T11:22:24.082874+00:00",
+  "archiveSha256": "205e763fbadd006f2313849ca95e41d8975b061640577f1a30dcadf286b574a6",
+  "sizeBytes": 934095,
+  "partCount": 1,
+  "parts": [
+    {
+      "path": "backups/full_state/2026-11-01T11-22-22-751574+00-00/part-0001.bin",
+      "sizeBytes": 934095,
+      "sha256": "205e763fbadd006f2313849ca95e41d8975b061640577f1a30dcadf286b574a6"
+    }
+  ],
+  "includes": [
+    "storage",
+    "sandbox"
+  ]
+}
